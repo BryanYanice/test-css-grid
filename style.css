@@ -350,7 +350,7 @@ button
     border-bottom-left-radius: 10px;
 }
 
-#activity
+#program
 {
     margin-top: 65px;
 	margin-left: 55px;
@@ -366,58 +366,132 @@ button
 	font-size: 16px;
 }
 
-.nom
-{
-    font-size: 12px;
-    font-weight: bold;
-    margin-top: 20px;
-    margin-left: 20px;
-}
 
-.activité1
-{
-	grid-column: 1 / 1;
-	grid-row: 2 / 6;
-    border: 1px solid #f2f2f2;
-	border-radius: 10px;
-}
 
-.long
+.activité-1
 {
 	width: 300px;
 	height: 390px;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
+    grid-column: 1 / 2;
+	grid-row: 2 / 6;
+    border: 1px solid #f2f2f2;
 }
 
-.activité2
+.nom-1
 {
-    grid-column: ;
-	grid-row: ;           
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 130px;
+    margin-left: 20px;
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
 }
 
-.activité3
+.activité-2
 {
-    grid-column: ;
-	grid-row: ;          
+    grid-column: 2 / 3;
+	grid-row: 2 / 3;
+    width: 300px;
+    height: 180px;
+    border: 1px solid #f2f2f2;
+    border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
 }
 
-.activité4
+.nom-2
 {
-    grid-column: ;
-	grid-row: ;            
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 5px;
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
 }
 
-.activité5
+.activité-3
 {
-    grid-column: ;
-	grid-row: ;
+    grid-column: 2 / 3;
+	grid-row: 5  / 6; 
+    width: 300px;
+    height: 110px; 
+    border: 1px solid #f2f2f2;
+    border-top-left-radius: 10px;
+	border-top-right-radius: 10px;  
 }
 
-.activité6
+.nom-3
 {
-    grid-column: ;
-    grid-row: ;
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 130px;
+    margin-left: 20px;
+    grid-column: 2 / 3;
+    grid-row: 5 / 6;
+}
+
+.activité-4
+{
+    width: 300px;
+	height: 390px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+    grid-column: 3 / 4;
+	grid-row: 2 / 6;
+    border: 1px solid #f2f2f2;         
+}
+
+.nom-4
+{
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 130px;
+    margin-left: 20px;
+    grid-column: 3 / 4;
+    grid-row: 5 / 6;
+}
+
+.activité-5
+{
+    width: 300px;
+	height: 140px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+    grid-column: 4 / 5;
+	grid-row: 2 / 3;
+    border: 1px solid #f2f2f2; 
+}
+
+.nom-5
+{
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 160px;
+    margin-left: 20px;
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+}
+
+.activité-6
+{
+    width: 300px;
+	height: 155px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+    grid-column: 4 / 5;
+	grid-row: 4 / 6;
+    border: 1px solid #f2f2f2;
+}
+
+.nom-6
+{
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 130px;
+    margin-left: 20px;
+    grid-column: 4 / 5;
+    grid-row: 5 / 6;
 }
 
 #fin
